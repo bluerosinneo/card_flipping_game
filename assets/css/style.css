@@ -1,0 +1,23 @@
+body{
+    background-color: cadetblue;
+    box-sizing: border-box;
+}
+
+header{
+    height: 200px;
+    /* eventually want to put stuff there but not now */
+    /* background-color: gold; */
+}
+
+#cardContainer{
+    display: flex;
+    justify-content: row;
+    justify-content: center;
+    height: 200px;
+}
+
+.card{
+    width: 100px;
+    border: 10px solid cadetblue;
+    background-color: green;
+}
