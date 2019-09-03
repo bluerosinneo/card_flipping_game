@@ -3,11 +3,6 @@ body{
     box-sizing: border-box;
 }
 
-header{
-    height: 200px;
-    /* eventually want to put stuff there but not now */
-    /* background-color: gold; */
-}
 
 #cardContainer{
     display: flex;
@@ -16,8 +11,23 @@ header{
     height: 200px;
 }
 
+header{
+    display: flex;
+    justify-content: center;
+}
+
+#instructions{
+    width: 400px;
+    /* border: 2px solid black */
+}
+
 .card{
     width: 100px;
     border: 10px solid cadetblue;
     background-color: green;
+}
+
+#resetButton {
+    display: block;
+    margin: 0 auto;
 }
